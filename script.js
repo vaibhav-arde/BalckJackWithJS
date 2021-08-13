@@ -247,7 +247,7 @@ function showCard(activePlayer){
     // console.log("card",card)
     // console.log("cardScore",cardScore)
     let cardImage = document.createElement('img');
-    cardImage.src =`./images/BlackJack/${card}.png`;
+    cardImage.src =`./images/blackJack/${card}.png`;
     document.querySelector(activePlayer['div']).appendChild(cardImage)
     hitSound.play()
     updateScore(activePlayer, cardScore)
